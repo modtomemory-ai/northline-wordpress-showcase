@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "northline/project-grid",
+  "title": "Northline / Project Grid",
+  "description": "A live, server-rendered portfolio grid powered by a custom WordPress post type.",
+  "category": "widgets",
+  "icon": "building",
+  "textdomain": "northline-core",
+  "attributes": {"count": {"type": "number", "default": 4}},
+  "supports": {"html": false, "align": ["wide", "full"]},
+  "editorScript": "northline-projects-block",
+  "style": "northline-projects-block",
+  "editorStyle": "northline-projects-block"
+}
